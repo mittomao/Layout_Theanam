@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Scrit -->
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/responsive-index.css">
+    <link rel="stylesheet" href="asset/Carousel/owl.carousel.min.css">
+</head>
+  <body>
+    <div class="header">
+        <div class="container no_gutter">
+            <nav class="navbar navbar-expand-ms">
+                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                <button class="navbar-toggler d-lg-none" id="show-menu">
+                    <span class="fa fa-bars text-white"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <div class="menu menu-md">
+                        <ul class="menu__left">
+                            <li class="nav-item sub_menu">
+                                <a class="nav-link" href="#">Rooms & Villas</a>
+                                <ul>
+                                    <li><a href="#" class="nav-link">All Rooms & Villas</a></li>
+                                    <li><a href="#" class="nav-link">Villas with Pool</a></li>
+                                    <li><a href="#" class="nav-link">Villas Without Pool</a></li>
+                                    <li><a href="#" class="nav-link"> Rooms</a></li>
+                                    <li><a href="#" class="nav-link">Suites</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item sub_menu">
+                                <a class="nav-link" href="#">Wine & Dine</a>
+                                <ul>
+                                    <li><a href="#">All Restaurants</a></li>
+                                    <li><a href="#">Lang Viet Restaurant & Bar</a></li>
+                                    <li><a href="#">Beach Club</a></li>
+                                    <li><a href="#"> The Colonial Restaurant</a></li>
+                                    <li><a href="#">The Indochine</a></li>
+                                    <li><a href="#">Saigon Bar</a></li>
+                                </ul>
+                            </li>  
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Relax</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Play</a>
+                            </li> 
+                        </ul>
+                        <ul class="menu__right">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Weddings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Events</a>
+                            </li>  
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Tour</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Location</a>
+                            </li>
+                            <a href="#" class="button b_none">Book</a>
+                        </ul> 
+                    </div>
+                </div>
+                <ul class="menu__center navbar-brand">
+                    <li class="nav-item logo">
+                        <a class="nav-link" href="#">
+                            <img src="img/index/logo_header.jpg" alt="">
+                        </a>
+                    </li> 
+                </ul>            
+            </nav>
+            <div class="menu--mobile">
+                <div class="closeMenu"><i class="fa fa-times" aria-hidden="true"></i></div>
+                    <ul class="menu--mobile-center">
+                        <li class="nav-item sub_menu">
+                            <a class="nav-link" href="#">
+                                Rooms & Villas
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                            </a>
+                            <ul>
+                                <li class="nav-item"><a href="#" class="nav-link">All Rooms & Villas</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Villas with Pool</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Villas Without Pool</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link"> Rooms</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Suites</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item sub_menu">
+                            <a class="nav-link" href="#">
+                                Wine & Dine
+                                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                            </a>
+                            <ul>
+                                <li class="nav-item"><a href="#">All Restaurants</a></li>
+                                <li class="nav-item"><a href="#">Lang Viet Restaurant & Bar</a></li>
+                                <li class="nav-item"><a href="#">Beach Club</a></li>
+                                <li class="nav-item"><a href="#"> The Colonial Restaurant</a></li>
+                                <li class="nav-item"><a href="#">The Indochine</a></liclass="nav-item">
+                                <li class="nav-item"><a href="#">Saigon Bar</a></li>
+                            </ul>
+                        </li>  
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Relax</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Play</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Weddings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Events</a>
+                        </li>  
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tour</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Location</a>
+                        </li>
+                        <a href="#" class="button b_none">Book</a>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    <div class="zero">
+        <video muted="" loop="" autoplay="" preload="auto" id="video">
+            <source src="https://www.youtube.com/watch?v=eLsqpQYTYD8" type="video/mp4">
+        </video>
+        <div class="zero__content">
+            <img src="img/index/header_icon.png" alt="">
+            <h3 class="wel">Welcome to The Anam</h3>
+            <h3 class="wel1">Indochine Charm. Modern Luxury. </h3>
+        </div>
+    </div>
+    <div class="welcom">
+        <div class="parallax">
+        </div>
+        <div class="welcom__content">
+            <div class="container no_gutter">
+                <h3 class="wel">Welcome to</h3>
+                <h1>The Anam</h1>
+                <div class="row">
+                    <div class="col col-12 col-md-6 col-lg-6 mb-3">
+                        <p class="_text">
+                            Welcome to The Anam. This picture-perfect five-star resort blends colonial era charm with warm-hearted Vietnamese service. Relax on mattress-thick sun loungers on Vietnam’s most beautiful beach, soak in three sparkling pools edged with bougainvilleas, stroll along immaculate lawns and taste the best Vietnamese and international cuisine at our four restaurants. 
+                        </p>
+                    </div>
+                    <div class="col col-12 col-md-6 col-lg-6 mb-3">
+                        <p class="_text">
+                            Whether in the spa, at the recreation and fitness centre, taking part in water sports, yoga and tennis, watching 3D movies, hanging out at the kids club, or just relaxing with a cocktail and a good book, at The Anam there are ample ways to enjoy the serene magic of a tropical getaway.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="intro">
+        <div class="intro__item">
+            <div class="container">
+                <div class="row align_center">
+                    <div class="col col-md-6 col-12 no_gutter">
+                        <div class="intro__img">
+                            <img src="img/index/intro1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col col-md-6 col-12 no_gutter">
+                        <div class="intro__content">
+                            <div class="intro__text">
+                                <h2>Beautiful Villas & Rooms</h2>
+                                <p>Striking a perfect balance between modern luxury and cosy Indochine charm since 2017.</p>
+                                <p>Our elegant 77 villas and 136 rooms and suites, with grand sweeping balconies or large outdoor terraces, have been created with indulgence and relaxation in mind.</p>
+                                <div class="button_btn">
+                                    <a href="#" class="button">Discover</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="intro__item">
+            <div class="container">
+                <div class="row align_center">
+                    <div class="col col-md-6 col-12 no_gutter  order-1">
+                        <div class="intro__img">
+                            <img src="img/index/intro2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col col-md-6 col-12 no_gutter  order-0">
+                        <div class="intro__content">
+                            <div class="intro__text">
+                                <h2>Stunning Food Experiences</h2>
+                                <p>From traditional Vietnamese home-style cooking to fusion tapas, beach barbeques and gourmet fine-dining, The Anam offers a tantalising choice of dining experiences. Inventive menus, personally curated by our executive chef Peter, make use of locally-sourced produce of the highest quality, while airy, al-fresco restaurant designs offer the perfect setting to soak up the atmosphere.</p>
+                                <div class="button_btn">
+                                    <a href="#" class="button">Discover</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="intro__item">
+            <div class="container">
+                <div class="row align_center">
+                    <div class="col col-md-6 col-12 no_gutter  order-0">
+                        <div class="intro__img">
+                            <img src="img/index/intro3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col col-md-6 col-12 no_gutter  order-1">
+                        <div class="intro__content">
+                            <div class="intro__text">
+                                <h2>Escape from the World</h2>
+                                <p>The Anam Spa is a calming haven with 10 treatment rooms inspired by ancient Asian traditions and healing rituals. All our therapists have been specially selected and trained, with secrets handed down over many generations.</p>
+                                <p>A series of body scrubs, nail care, hair care and skin treatments are available, or you can choose to simply relax in the Jacuzzi, sauna and steam room.</p>
+                                <div class="button_btn">
+                                    <a href="#" class="button">Discover</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="logo_fea">
+        <div class="container">
+            <h3 class="feature">
+                Featured In…
+            </h3>
+            <div class="row">
+                <ul class="list_logo owl-carousel owl-theme" id="logo">
+                    <li class="item">
+                        <img src="img/index/logo1.jpg" alt="" class="img">
+                    </li>
+                    <li class="item">
+                        <img src="img/index/logo2.jpg" alt="" class="img">
+                    </li>
+                    <li class="item">
+                        <img src="img/index/logo3.jpg" alt="" class="img">
+                    </li>
+                    <li class="item">
+                        <img src="img/index/logo4.jpg" alt="" class="img">
+                    </li>
+                    <li class="item">
+                        <img src="img/index/logo5.jpg" alt="" class="img">
+                    </li>
+                    <li class="item">
+                        <img src="img/index/logo6.jpg" alt="" class="img">
+                    </li>
+                    <li class="item">
+                        <img src="img/index/logo7.jpg" alt="" class="img">
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="intro1">
+        <div class="intro1__body">
+            <div class="intro__item">
+                <div class="container">
+                    <div class="row align_center">
+                        <div class="col col-md-6 col-12 no_gutter">
+                            <div class="intro__img">
+                                <img src="img/index/intro1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col col-md-6 col-12 no_gutter">
+                            <div class="intro__content">
+                                <div class="intro__text">
+                                    <h2>Exclusive advance booking discounts with flexible conditions</h2>
+                                    <p>Plan your stay at The Anam with an ease of mind. Discover our advance booking discounts with flexible cancellation options.</p>
+                                    <div class="button_btn">
+                                        <a href="#" class="button">See discounts</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="intro1__list">
+                <div class="container">            
+                    <div class="row">
+                        <div class="col-12 no_gutter">
+                            <p class="text_offer">Exclusive Direct Booking Offers</p>
+                        </div>
+                        <div class="col col-12 col-md-6 col-lg-4 mb-3">
+                            <a href="#" class="intro1__child">
+                                <img src="img/index/box1.jpg" alt="">
+                                <p class="_title">15% early bird discount: book at least 30 days in advance</p>
+                                <span class="readMore">Read more → </span>
+                            </a>
+                        </div>
+                        <div class="col col-12 col-md-6 col-lg-4 mb-3">
+                            <a href="#" class="intro1__child">
+                                <img src="img/index/box1.jpg" alt="">
+                                <p class="_title">15% early bird discount: book at least 30 days in advance</p>
+                                <span class="readMore">Read more → </span>
+                            </a>
+                        </div>
+                        <div class="col col-12 col-md-6 col-lg-4 mb-3">
+                            <a href="#" class="intro1__child">
+                                <img src="img/index/box1.jpg" alt="">
+                                <p class="_title">15% early bird discount: book at least 30 days in advance</p>
+                                <span class="readMore">Read more → </span>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Lates Photo -->
+    <div class="late-photo">
+        <h3 class="late">
+            <em>Latest Photos</em>
+        </h3>
+        <div class="container">
+            <div class="row photo_container">
+                <div class="photo_item">
+                    <a href="#">
+                        <img src="img/index/photo/pt1.jpeg"alt="">
+                    </a>
+                </div>
+                <div class="photo_item">
+                    <a href="#">
+                        <img src="img/index/photo/pt2.jpeg"alt="">
+                    </a>
+                </div>
+                <div class="photo_item">
+                    <a href="#">
+                        <img src="img/index/photo/pt3.jpeg"alt="">
+                    </a>
+                </div>
+                <div class="photo_item">
+                    <a href="#">
+                        <img src="img/index/photo/pt4.jpeg"alt="">
+                    </a>
+                </div>
+                <div class="photo_item">
+                    <a href="#">
+                        <img src="img/index/photo/pt5.jpeg"alt="">
+                    </a>
+                </div>
+                <div class="photo_item">
+                    <a href="#">
+                        <img src="img/index/photo/pt6.jpeg"alt="">
+                    </a>
+                </div>
+                <div class="photo_item">
+                    <a href="#">
+                        <img src="img/index/photo/pt7.jpeg"alt="">
+                    </a>
+                </div>
+                <div class="photo_item">
+                    <a href="#">
+                        <img src="img/index/photo/pt8.jpeg"alt="">
+                    </a>
+                </div>
+                <div class="photo_item">
+                    <a href="#">
+                        <img src="img/index/photo/pt9.jpeg"alt="">
+                    </a>
+                </div>
+                <div class="photo_item">
+                    <a href="#">
+                        <img src="img/index/photo/pt10.jpeg"alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END Lates Photo -->
+    <!-- footer -->
+    <footer>
+    <!-- storeis -->
+        <div class="stories">
+            <div class="container">
+                <h2 class="title_stories">Recent Stories</h2>
+                <div class="row">
+                    <div class="col col-12 col-md-6 col-lg-3 mb-3">
+                        <a href="#" class="stories__item">
+                            <img src="img/index/store1.jpg" alt="">
+                            <p class="_title">The Anam Launches ‘Family is Everything’ experience</p>
+                            <span class="_time">21 Feb 2020</span>
+                        </a>
+                    </div>
+                    <div class="col col-12 col-md-6 col-lg-3 mb-3">
+                        <a href="#" class="stories__item">
+                            <img src="img/index/store2.jpg" alt="">
+                            <p class="_title">The Anam Launches ‘Family is Everything’ experience</p>
+                            <span class="_time">21 Feb 2020</span>
+                        </a>
+                    </div>
+                    <div class="col col-12 col-md-6 col-lg-3 mb-3">
+                        <a href="#" class="stories__item">
+                            <img src="img/index/store3.jpg" alt="">
+                            <p class="_title">The Anam Launches ‘Family is Everything’ experience</p>
+                            <span class="_time">21 Feb 2020</span>
+                        </a>
+                    </div>
+                    <div class="col col-12 col-md-6 col-lg-3 mb-3">
+                        <a href="#" class="stories__item">
+                            <img src="img/index/store4.jpg" alt="">
+                            <p class="_title">The Anam Launches ‘Family is Everything’ experience</p>
+                            <span class="_time">21 Feb 2020</span>
+                        </a>
+                    </div>
+                    
+                    <div class="col-12">
+                        <div class="viewmore">
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-8 mx-auto no_gutter">
+                        <ul class="list_icon">
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-camera" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="form_footer">
+                            <p class="title_form">Sign up to Receive News and Offers</p>
+                            <div class="row justify-content-between">
+                                <div class="col col-12 col-md-6 col-lg-2 mb-2">
+                                    <input type="text" name="" id="" placeholder="First Name">
+                                </div>
+                                <div class="col col-12 col-md-6 col-lg-2 mb-2">
+                                    <input type="text" name="" id="" placeholder="Last Name">
+                                </div>
+                                <div class="col col-12 col-md-6 col-lg-2 mb-2">
+                                    <input type="text" name="" id="" placeholder="Country">
+                                </div>
+                                <div class="col col-12 col-md-6 col-lg-2 mb-2">
+                                    <input type="text" name="" id="" placeholder="Phone">
+                                </div>
+                                <div class="col col-12 col-md-6 col-lg-2 mb-2">
+                                    <input type="text" name="" id="" placeholder="Email">
+                                </div>
+                                <div class="col col-12 col-md-6 col-lg-2 mb-2">
+                                    <input type="submit" name="" id="" value="Sign up">
+                                </div>
+
+                            </div>
+                        </div>
+                        <ul class="menu_footer">
+                            <li>
+                                <a href="#">View Brochure</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Download Resort Map</a>
+                            </li>
+                            <li>
+                                <a href="#">Press</a>
+                            </li>
+                            <li>
+                                <a href="#">Photo Gallery </a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <p class="title_form">We accept payment via:</p>
+                        <ul class="payment">
+                            <li>
+                                <img src="img/index/icon_ft1.png" alt="">
+                            </li>
+                            <li>
+                                <img src="img/index/icon_ft2.png" alt="">
+                            </li>
+                            <li>
+                                <img src="img/index/icon_ft3.png" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- end storeis -->
+    </footer>
+    <!-- End footer -->
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="asset/Carousel/owl.carousel.min.js"></script>
+    <script src="js/slider.js"></script>  
+    <script src="js/index.js"></script>  
+
+  </body>
+</html>

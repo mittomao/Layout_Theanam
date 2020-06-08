@@ -1,0 +1,232 @@
+@media (min-width: 566px){.container {
+    max-width: 100%;
+}};
+@media (min-width: 767px){.container {
+    max-width: 100%;
+}};
+
+@media (min-width: 1660px)
+{
+.container {
+    max-width: 1450px;
+}
+}
+@media (min-width: 992px){
+    .container {
+        max-width: 100%;
+    }
+}
+@media (min-width: 1200px){.container {
+    max-width: 1150px;
+}}
+
+@media (min-width: 1440px){.container {
+    max-width: 1300px;
+}}
+
+
+
+/* Responsive */
+
+@media (max-width:767px){
+    /* Zero */
+    .zero__content {
+        padding-top: 30px !important;
+    }
+    .zero__content h3.wel {
+        font-size: 18px;
+    }
+    .zero__content h3.wel1 {
+        font-size: 30px;
+    }
+
+    /* Welcom */
+    .welcom__content h1 {
+        font-size: 30px;
+        padding:10px 0 20px 0;
+    }
+
+    /* Intro */
+    .align_center {
+        align-items: flex-start;
+    }
+    .no_gutter{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .intro__text h2 { 
+        font-size: 14px;
+    }
+    .intro__text p {
+        line-height: 1.3em;
+        font-size: 14px;
+    }
+    .intro__text .button_btn a.button {
+        padding: 8px 20px;
+    }
+    .intro__img img{
+        width: 100%;
+    }
+    .intro__item:nth-child(even) .intro__img {
+        margin-left: 0;
+      }
+    .intro__item:nth-child(odd) .intro__content {
+        margin-right: 10%;
+        transform:translateY(-100px)
+    }
+    .intro__item:nth-child(odd) .intro__img{
+        padding-left: 10%;
+    }
+
+    .intro__item:nth-child(even) .intro__content {
+        margin-left: 10%;
+        /* transform: translateY(-100px); */
+    }
+    .intro__item:nth-child(even) .intro__img{
+        padding-right: 10%;
+        transform:translateY(-100px)
+    }
+    /* // logo */
+    .logo_fea {
+        padding: 0 15px;
+    }
+
+    /* // photo */
+
+    .photo_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* // Store */
+    .stories .title_stories {
+        font-size: 30px;
+    }
+    /* // footer */
+    p.title_form {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:992px){
+    /* Menu Header */
+    /* .hide_logo
+    {
+        display: none;
+    } */
+    .sub_menu:hover > ul{
+        opacity: 0;
+        visibility: hidden;
+        z-index:-1;
+    }
+    .closeMenu{
+        display:block;
+    }
+    .closeMenu i.fa{
+        color: #fff;
+    }
+    .b_none{
+        display: none;
+    }
+    .menu-md{
+        display: none;
+    }
+    .menu--mobile {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        background: #030303;
+        z-index: 10;
+        margin: 0;
+        padding: 0;
+        transition: .6s;
+    }
+    ul.menu--mobile-center.hide_parent {
+        transform: translateX(-150%);
+    }
+    .menu--mobile.show_m{
+        left: 0;
+    }
+      .menu--mobile-center{
+          position: absolute;
+          top: 0%;
+          left: 50%;
+          transform:translateX(-50%);
+          padding-top: 10%;
+          padding-left: 10%;
+          width: 100%;
+          height: 100%;
+      }
+      .nav-link{
+        font-size: 25px;
+        font-weight: 800;
+      }
+
+      .menu--mobile .sub_menu > ul{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        background: purple;
+        z-index: 100;
+        margin: 0;
+        padding: 0;
+        transition: .6s;
+     } 
+     .menu--mobile .show_child > ul{
+       left:0;
+     } 
+     .menu--mobile .nav-item{
+
+         margin-right: 0;
+     }
+     .menu--mobile .sub_menu i.fa{
+         display: inline;
+         font-size: 20px;
+         color: orangered;
+         font-weight: 600;
+     }
+    
+/* 
+     .sub_menu:hover > ul{
+        visibility: hidden;
+        opacity: 0;
+    }
+         */
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Welcom */
+    .intro__text h2 { 
+        font-size: 20px;
+    }
+    .intro__text p {
+        line-height: 1.7em;
+        font-size: 16px;
+    }
+    .no_gutter{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    /* // logo */
+    .logo_fea {
+        padding: 0 15px;
+    }
+
+    /* // photo */
+
+    .photo_container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
